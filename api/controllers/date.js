@@ -6,11 +6,11 @@ exports.parseDate = (req, res, next) => {
         date = new Date(req.params.date);
     }
     if (!date.getTime()) {
-        res.status(400).json({ error: 'Invalid date given' });
+        res.status(400).json({ error: 'Invalid Date' });
     } else {
         res.status(200).json({
             unix: date.getTime(),
-            natural: date.toUTCString(),
+            utc: date.toUTCString(),
         });
     }
 };
