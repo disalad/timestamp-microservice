@@ -1,5 +1,13 @@
 exports.parseDate = (req, res, next) => {
     let date;
+    // Send current date and time for empty parameter
+    if (!req.params.date) {
+        return res.json({
+            unix: new Date().getTime(),
+            utc: new Date().toUTCString(),
+        });
+    }
+
     if (Number(req.params.date)) {
         date = new Date(Number(req.params.date));
     } else {
