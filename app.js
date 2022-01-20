@@ -6,6 +6,7 @@ const cors = require('cors');
 
 // Routes imports
 const dateRoute = require('./api/routes/date.routes');
+const indexRoute = require('./api/routes/index.routes');
 
 // Middleware
 app.use(
@@ -17,6 +18,8 @@ app.use(
 app.use(morgan('dev'));
 
 // Routes
+app.use('/', indexRoute);
+
 app.use('/api', dateRoute);
 
 app.use((req, res, next) => {
