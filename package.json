@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "An API to parse timestamps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disaladamsas/timestamp-microservice.git"
+  },
+  "author": "Disala Damsas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disaladamsas/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/disaladamsas/timestamp-microservice#readme"
+}
