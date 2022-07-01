@@ -26,7 +26,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/disaladamsas/timestamp-microservice.git
+   git clone https://github.com/disalad/timestamp-microservice.git
    ```
 2. Install 3rd party packages
    ```sh
@@ -48,4 +48,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Disala - damsasdisala@gmail.com
 
-Project Link: [https://github.com/disaladamsas/timestamp-microservice](https://github.com/disaladamsas/timestamp-microservice.git)
+Project Link: [https://github.com/disalad/timestamp-microservice](https://github.com/disalad/timestamp-microservice.git)
